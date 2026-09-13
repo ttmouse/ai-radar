@@ -1,0 +1,462 @@
+[
+  {
+    "product": "Granola",
+    "status": "core",
+    "innovation_score": "★★★★★",
+    "category": "Meeting notes",
+    "pattern": "Human Signal + Machine Context",
+    "core_mechanism": "人只记录注意力信号，AI结合完整会议上下文定向补全",
+    "new_pattern": "是",
+    "relevance_to_user": "强"
+  },
+  {
+    "product": "Acti",
+    "status": "core",
+    "innovation_score": "★★★★★",
+    "category": "Mobile action",
+    "pattern": "Existing Surface → AI Action Layer",
+    "core_mechanism": "把手机键盘从文字输入层变成意图到行动的入口",
+    "new_pattern": "是",
+    "relevance_to_user": "中"
+  },
+  {
+    "product": "ChatGPT Work",
+    "status": "core",
+    "innovation_score": "★★★★★",
+    "category": "General agent",
+    "pattern": "Goal → Autonomous Work",
+    "core_mechanism": "从聊天转向跨文件/应用持续执行项目",
+    "new_pattern": "是",
+    "relevance_to_user": "中"
+  },
+  {
+    "product": "Claude Cowork",
+    "status": "core",
+    "innovation_score": "★★★★☆",
+    "category": "General agent",
+    "pattern": "Goal → Autonomous Work",
+    "core_mechanism": "持续执行工作并在需要决策时请求人介入",
+    "new_pattern": "部分",
+    "relevance_to_user": "中"
+  },
+  {
+    "product": "Grok Bot",
+    "status": "core",
+    "innovation_score": "★★★★☆",
+    "category": "Cloud computer agent",
+    "pattern": "Agent Workspace",
+    "core_mechanism": "给 Agent 独立云电脑、登录状态与持续上下文",
+    "new_pattern": "是",
+    "relevance_to_user": "中"
+  },
+  {
+    "product": "TaskShell",
+    "status": "watchlist",
+    "innovation_score": "★★★☆☆",
+    "category": "Task management",
+    "pattern": "Human-Agent Shared Task System",
+    "core_mechanism": "任务可由人和 Agent 共同承担；但多数能力可由 Linear + MCP + Automation 拼装",
+    "new_pattern": "部分",
+    "relevance_to_user": "强"
+  },
+  {
+    "product": "Atlas",
+    "status": "core",
+    "innovation_score": "★★★★☆",
+    "category": "Enterprise context",
+    "pattern": "Organization Context Layer",
+    "core_mechanism": "把公司规则和上下文变成多个 Agent 共用的基础层",
+    "new_pattern": "是",
+    "relevance_to_user": "中"
+  },
+  {
+    "product": "LapuAI",
+    "status": "core",
+    "innovation_score": "★★★★☆",
+    "category": "Desktop agent",
+    "pattern": "Desktop Tool Use",
+    "core_mechanism": "Agent 直接操作桌面软件而不要求每个软件先提供 AI API",
+    "new_pattern": "部分",
+    "relevance_to_user": "中"
+  },
+  {
+    "product": "Contrive",
+    "status": "core",
+    "innovation_score": "★★★★☆",
+    "category": "Cross-app command",
+    "pattern": "Cross-app Command Layer",
+    "core_mechanism": "把系统级搜索入口升级成跨应用的搜索+行动入口",
+    "new_pattern": "是",
+    "relevance_to_user": "中"
+  },
+  {
+    "product": "Airtop Agent Builder",
+    "status": "core",
+    "innovation_score": "★★★★★",
+    "category": "Automation",
+    "pattern": "AI Build → Software Run → AI Repair",
+    "core_mechanism": "AI 生成确定性自动化并在环境变化后诊断、修复、测试",
+    "new_pattern": "是",
+    "relevance_to_user": "强"
+  },
+  {
+    "product": "Fambot",
+    "status": "core",
+    "innovation_score": "★★★★☆",
+    "category": "Family agent",
+    "pattern": "Persistent State → Proactive Action",
+    "core_mechanism": "持续维护家庭状态，在正确时间主动出现，而不是等 Prompt",
+    "new_pattern": "是",
+    "relevance_to_user": "中"
+  },
+  {
+    "product": "Fireflies Voice Agents",
+    "status": "core",
+    "innovation_score": "★★★★☆",
+    "category": "Meeting/voice agent",
+    "pattern": "Recorder → Participant → Worker",
+    "core_mechanism": "从记录会议演进到实时参与甚至替人完成部分通话",
+    "new_pattern": "是",
+    "relevance_to_user": "中"
+  },
+  {
+    "product": "Perplexity Hybrid Compute",
+    "status": "core",
+    "innovation_score": "★★★☆☆",
+    "category": "Agent compute",
+    "pattern": "Invisible Compute Routing",
+    "core_mechanism": "Agent 在本地和云端算力之间自动路由",
+    "new_pattern": "部分",
+    "relevance_to_user": "中"
+  },
+  {
+    "product": "Tadata",
+    "status": "core",
+    "innovation_score": "★★★★★",
+    "category": "Work automation",
+    "pattern": "Observe → Detect Pattern → Propose Automation",
+    "core_mechanism": "AI观察人的工作，主动发现可自动化流程并提出建议",
+    "new_pattern": "是",
+    "relevance_to_user": "强"
+  },
+  {
+    "product": "Claudeforce",
+    "status": "core",
+    "innovation_score": "★★★★☆",
+    "category": "Enterprise SaaS",
+    "pattern": "Headless Business System + Generative Interface",
+    "core_mechanism": "传统 SaaS 退为数据/规则/权限层，AI 成为主要交互入口",
+    "new_pattern": "是",
+    "relevance_to_user": "强"
+  },
+  {
+    "product": "Gemini Spark × Google Photos",
+    "status": "core",
+    "innovation_score": "★★★★☆",
+    "category": "Personal productivity",
+    "pattern": "Artifact → Semantic Object → Action",
+    "core_mechanism": "照片被理解后直接转化为事件、任务和后续工作流",
+    "new_pattern": "是",
+    "relevance_to_user": "强"
+  },
+  {
+    "product": "Monid",
+    "status": "core",
+    "innovation_score": "★★★★★",
+    "category": "Agent tools marketplace",
+    "pattern": "Capability-on-Demand",
+    "core_mechanism": "Agent 根据任务动态发现、比价、购买并调用能力",
+    "new_pattern": "是",
+    "relevance_to_user": "中"
+  },
+  {
+    "product": "Browzer",
+    "status": "core",
+    "innovation_score": "★★★★☆",
+    "category": "Developer docs",
+    "pattern": "Source → Self-maintaining Artifact",
+    "core_mechanism": "文档/内容作为代码的派生产物，并随源变化自动修复",
+    "new_pattern": "是",
+    "relevance_to_user": "强"
+  },
+  {
+    "product": "Nex",
+    "status": "core",
+    "innovation_score": "★★★★☆",
+    "category": "GTM automation",
+    "pattern": "Deterministic / Probabilistic Split",
+    "core_mechanism": "确定性工作用代码执行，不确定判断才调用模型",
+    "new_pattern": "是",
+    "relevance_to_user": "强"
+  },
+  {
+    "product": "Airuncode",
+    "status": "rejected",
+    "innovation_score": "★★☆☆☆",
+    "category": "Coding agent",
+    "pattern": "Existing components productization",
+    "core_mechanism": "多 Agent、本地/云模型、自动测试等主要是成熟能力组合",
+    "new_pattern": "否",
+    "relevance_to_user": "强"
+  },
+  {
+    "product": "Meta Muse",
+    "status": "core",
+    "innovation_score": "★★★★★",
+    "category": "Personal agent",
+    "pattern": "Agent Workspace + Governance Layer",
+    "core_mechanism": "Agent 拥有持续 VM，执行 Agent 与安全/治理层分离",
+    "new_pattern": "是",
+    "relevance_to_user": "强"
+  },
+  {
+    "product": "Relaticle",
+    "status": "core",
+    "innovation_score": "★★★★☆",
+    "category": "CRM",
+    "pattern": "Proposed Action as First-class Object",
+    "core_mechanism": "AI 写操作先成为 PendingAction，再由人审核后执行",
+    "new_pattern": "是",
+    "relevance_to_user": "强"
+  },
+  {
+    "product": "AIR Security",
+    "status": "core",
+    "innovation_score": "★★★★☆",
+    "category": "Agent security",
+    "pattern": "Context Supply Chain",
+    "core_mechanism": "持续检查 Agent 信任的 Skill、MCP、网页与外部上下文",
+    "new_pattern": "是",
+    "relevance_to_user": "强"
+  },
+  {
+    "product": "AppGacha",
+    "status": "rejected",
+    "innovation_score": "★★☆☆☆",
+    "category": "App generation",
+    "pattern": "Vibe coding + packaging",
+    "core_mechanism": "一句话生成桌面应用，但核心能力可由现有 Coding Agent 拼装",
+    "new_pattern": "否",
+    "relevance_to_user": "中"
+  },
+  {
+    "product": "Tucky",
+    "status": "rejected",
+    "innovation_score": "★★☆☆☆",
+    "category": "Notes/assistant",
+    "pattern": "Notes + Agent + Shortcut",
+    "core_mechanism": "交互不错，但主要是成熟能力组合",
+    "new_pattern": "否",
+    "relevance_to_user": "中"
+  },
+  {
+    "product": "GoodLads",
+    "status": "watchlist",
+    "innovation_score": "★★★☆☆",
+    "category": "Ads optimization",
+    "pattern": "Experiment hypothesis generator",
+    "core_mechanism": "AI生成广告优化假设并进入实验看板，机制有潜力但证据不足",
+    "new_pattern": "待验证",
+    "relevance_to_user": "中"
+  },
+  {
+    "product": "Quincy Hub",
+    "status": "core",
+    "innovation_score": "★★★★★",
+    "category": "Gov affairs",
+    "pattern": "AI Work Queue / Judgment Queue",
+    "core_mechanism": "Agent提前完成工作，把人的首页变成待判断/审批队列",
+    "new_pattern": "是",
+    "relevance_to_user": "强"
+  },
+  {
+    "product": "49agents IDE",
+    "status": "core",
+    "innovation_score": "★★★★☆",
+    "category": "Multi-agent supervision",
+    "pattern": "Spatial Agent Supervision",
+    "core_mechanism": "用空间而非列表/Tab管理大量 Agent 的注意力与状态",
+    "new_pattern": "是",
+    "relevance_to_user": "中"
+  },
+  {
+    "product": "WRITER Enterprise Brain",
+    "status": "core",
+    "innovation_score": "★★★★☆",
+    "category": "Enterprise memory",
+    "pattern": "Organization Learning Loop",
+    "core_mechanism": "组织日常工作持续沉淀为团队级 Memory 并反哺 Agent",
+    "new_pattern": "部分",
+    "relevance_to_user": "中"
+  },
+  {
+    "product": "Mastra Factory",
+    "status": "rejected",
+    "innovation_score": "★★☆☆☆",
+    "category": "Coding automation",
+    "pattern": "Issue → Agent → PR",
+    "core_mechanism": "高工程价值，但 Linear/GitHub + Agent + worktree 可拼出核心体验",
+    "new_pattern": "否",
+    "relevance_to_user": "强"
+  },
+  {
+    "product": "Feathery Robin",
+    "status": "rejected",
+    "innovation_score": "★★★☆☆",
+    "category": "Workflow builder",
+    "pattern": "AI Build → Deterministic Workflow → Human Review",
+    "core_mechanism": "机制与 Airtop/Nex 已有模式高度重合",
+    "new_pattern": "否",
+    "relevance_to_user": "中"
+  },
+  {
+    "product": "Typewise Nova",
+    "status": "core",
+    "innovation_score": "★★★★★",
+    "category": "Agent operations",
+    "pattern": "Agent Operations Agent",
+    "core_mechanism": "由一个 AI Operator 持续监控、评估、改进其他业务 Agent",
+    "new_pattern": "是",
+    "relevance_to_user": "强"
+  },
+  {
+    "product": "Type.com",
+    "status": "core",
+    "innovation_score": "★★★★☆",
+    "category": "Team AI workspace",
+    "pattern": "AI Work as Shared Artifact",
+    "core_mechanism": "AI Session/Context/Tools/History 变成团队可继承的工作资产",
+    "new_pattern": "是",
+    "relevance_to_user": "中"
+  },
+  {
+    "product": "Thousand",
+    "status": "core",
+    "innovation_score": "★★★★☆",
+    "category": "Knowledge/permissions",
+    "pattern": "Agent as First-class Identity",
+    "core_mechanism": "Agent拥有独立身份、scope、有效期、权限与审计",
+    "new_pattern": "是",
+    "relevance_to_user": "强"
+  },
+  {
+    "product": "Speechmark",
+    "status": "rejected",
+    "innovation_score": "★★☆☆☆",
+    "category": "Local meeting notes",
+    "pattern": "Local ASR + Notes + MCP",
+    "core_mechanism": "与你本地工具相关，但主要是成熟能力组合，不是新机制",
+    "new_pattern": "否",
+    "relevance_to_user": "强"
+  },
+  {
+    "product": "OpenMarket",
+    "status": "core",
+    "innovation_score": "★★★★★",
+    "category": "Shopping/decision",
+    "pattern": "Adversarial Agents + Independent Referee",
+    "core_mechanism": "不同利益立场 Agent 相互挑战，由独立裁判验证证据",
+    "new_pattern": "是",
+    "relevance_to_user": "强"
+  },
+  {
+    "product": "HyperVerge",
+    "status": "core",
+    "innovation_score": "★★★★☆",
+    "category": "Lending/due diligence",
+    "pattern": "Evidence Gap → Active Investigation",
+    "core_mechanism": "AI发现证据缺口后主动发起调查、提问并获取新证据",
+    "new_pattern": "是",
+    "relevance_to_user": "强"
+  },
+  {
+    "product": "OpenAI Data Agent",
+    "status": "core",
+    "innovation_score": "★★★★☆",
+    "category": "Enterprise analytics",
+    "pattern": "Business Semantic Layer",
+    "core_mechanism": "AI消费的不只是数据，还包括组织对指标、关系与规则的统一语义",
+    "new_pattern": "是",
+    "relevance_to_user": "强"
+  },
+  {
+    "product": "Cadenya",
+    "status": "watchlist",
+    "innovation_score": "★★★☆☆",
+    "category": "Agent runtime",
+    "pattern": "Agent runtime infrastructure",
+    "core_mechanism": "Runtime、approval、sub-agent、context、成本与反馈完整，但偏基础设施",
+    "new_pattern": "基础设施",
+    "relevance_to_user": "中"
+  },
+  {
+    "product": "Swiftime",
+    "status": "rejected",
+    "innovation_score": "★★☆☆☆",
+    "category": "Time tracking",
+    "pattern": "Natural language + API",
+    "core_mechanism": "Agent可给自己记工时，但核心体验容易拼装",
+    "new_pattern": "否",
+    "relevance_to_user": "中"
+  },
+  {
+    "product": "ChatGPT for Financial Services",
+    "status": "rejected",
+    "innovation_score": "★★★☆☆",
+    "category": "Vertical AI",
+    "pattern": "Vertical ChatGPT + deep integrations",
+    "core_mechanism": "金融垂直化和数据集成强，但尚未看到独立的新产品机制",
+    "new_pattern": "待验证",
+    "relevance_to_user": "中"
+  },
+  {
+    "product": "Accordio",
+    "status": "core",
+    "innovation_score": "★★★★★",
+    "category": "Freelancer back office",
+    "pattern": "Agent-facing System of Record",
+    "core_mechanism": "SaaS 退为可信业务状态、规则和交易层，Agent 成为主要交互入口",
+    "new_pattern": "是",
+    "relevance_to_user": "强"
+  },
+  {
+    "product": "Switch",
+    "status": "core",
+    "innovation_score": "★★★★☆",
+    "category": "Team agent collaboration",
+    "pattern": "Context Belongs to Work",
+    "core_mechanism": "Context 归属于 Room/项目/任务，不绑定特定 Agent",
+    "new_pattern": "是",
+    "relevance_to_user": "强"
+  },
+  {
+    "product": "Diiverge",
+    "status": "core",
+    "innovation_score": "★★★★☆",
+    "category": "Generative media",
+    "pattern": "Generation as State Transition",
+    "core_mechanism": "生成不再是一次性 Artifact，而是推动持久世界状态演化",
+    "new_pattern": "是",
+    "relevance_to_user": "中"
+  },
+  {
+    "product": "Harden",
+    "status": "rejected",
+    "innovation_score": "★★★☆☆",
+    "category": "Agent security",
+    "pattern": "Tool-call policy enforcement",
+    "core_mechanism": "本地拦截 Agent tool calls 很实用，但更偏 Agent Security Infrastructure",
+    "new_pattern": "基础设施",
+    "relevance_to_user": "强"
+  },
+  {
+    "product": "ThreadRecall / Chat Recall",
+    "status": "rejected",
+    "innovation_score": "★★★☆☆",
+    "category": "AI memory",
+    "pattern": "Cross-session memory",
+    "core_mechanism": "实用但与已有 Shared Artifact / Persistent Context 模式高度重合",
+    "new_pattern": "否",
+    "relevance_to_user": "中"
+  }
+]

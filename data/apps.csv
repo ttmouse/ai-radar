@@ -1,0 +1,47 @@
+﻿product,status,innovation_score,category,pattern,core_mechanism,new_pattern,relevance_to_user
+Granola,core,★★★★★,Meeting notes,Human Signal + Machine Context,人只记录注意力信号，AI结合完整会议上下文定向补全,是,强
+Acti,core,★★★★★,Mobile action,Existing Surface → AI Action Layer,把手机键盘从文字输入层变成意图到行动的入口,是,中
+ChatGPT Work,core,★★★★★,General agent,Goal → Autonomous Work,从聊天转向跨文件/应用持续执行项目,是,中
+Claude Cowork,core,★★★★☆,General agent,Goal → Autonomous Work,持续执行工作并在需要决策时请求人介入,部分,中
+Grok Bot,core,★★★★☆,Cloud computer agent,Agent Workspace,给 Agent 独立云电脑、登录状态与持续上下文,是,中
+TaskShell,watchlist,★★★☆☆,Task management,Human-Agent Shared Task System,任务可由人和 Agent 共同承担；但多数能力可由 Linear + MCP + Automation 拼装,部分,强
+Atlas,core,★★★★☆,Enterprise context,Organization Context Layer,把公司规则和上下文变成多个 Agent 共用的基础层,是,中
+LapuAI,core,★★★★☆,Desktop agent,Desktop Tool Use,Agent 直接操作桌面软件而不要求每个软件先提供 AI API,部分,中
+Contrive,core,★★★★☆,Cross-app command,Cross-app Command Layer,把系统级搜索入口升级成跨应用的搜索+行动入口,是,中
+Airtop Agent Builder,core,★★★★★,Automation,AI Build → Software Run → AI Repair,AI 生成确定性自动化并在环境变化后诊断、修复、测试,是,强
+Fambot,core,★★★★☆,Family agent,Persistent State → Proactive Action,持续维护家庭状态，在正确时间主动出现，而不是等 Prompt,是,中
+Fireflies Voice Agents,core,★★★★☆,Meeting/voice agent,Recorder → Participant → Worker,从记录会议演进到实时参与甚至替人完成部分通话,是,中
+Perplexity Hybrid Compute,core,★★★☆☆,Agent compute,Invisible Compute Routing,Agent 在本地和云端算力之间自动路由,部分,中
+Tadata,core,★★★★★,Work automation,Observe → Detect Pattern → Propose Automation,AI观察人的工作，主动发现可自动化流程并提出建议,是,强
+Claudeforce,core,★★★★☆,Enterprise SaaS,Headless Business System + Generative Interface,传统 SaaS 退为数据/规则/权限层，AI 成为主要交互入口,是,强
+Gemini Spark × Google Photos,core,★★★★☆,Personal productivity,Artifact → Semantic Object → Action,照片被理解后直接转化为事件、任务和后续工作流,是,强
+Monid,core,★★★★★,Agent tools marketplace,Capability-on-Demand,Agent 根据任务动态发现、比价、购买并调用能力,是,中
+Browzer,core,★★★★☆,Developer docs,Source → Self-maintaining Artifact,文档/内容作为代码的派生产物，并随源变化自动修复,是,强
+Nex,core,★★★★☆,GTM automation,Deterministic / Probabilistic Split,确定性工作用代码执行，不确定判断才调用模型,是,强
+Airuncode,rejected,★★☆☆☆,Coding agent,Existing components productization,多 Agent、本地/云模型、自动测试等主要是成熟能力组合,否,强
+Meta Muse,core,★★★★★,Personal agent,Agent Workspace + Governance Layer,Agent 拥有持续 VM，执行 Agent 与安全/治理层分离,是,强
+Relaticle,core,★★★★☆,CRM,Proposed Action as First-class Object,AI 写操作先成为 PendingAction，再由人审核后执行,是,强
+AIR Security,core,★★★★☆,Agent security,Context Supply Chain,持续检查 Agent 信任的 Skill、MCP、网页与外部上下文,是,强
+AppGacha,rejected,★★☆☆☆,App generation,Vibe coding + packaging,一句话生成桌面应用，但核心能力可由现有 Coding Agent 拼装,否,中
+Tucky,rejected,★★☆☆☆,Notes/assistant,Notes + Agent + Shortcut,交互不错，但主要是成熟能力组合,否,中
+GoodLads,watchlist,★★★☆☆,Ads optimization,Experiment hypothesis generator,AI生成广告优化假设并进入实验看板，机制有潜力但证据不足,待验证,中
+Quincy Hub,core,★★★★★,Gov affairs,AI Work Queue / Judgment Queue,Agent提前完成工作，把人的首页变成待判断/审批队列,是,强
+49agents IDE,core,★★★★☆,Multi-agent supervision,Spatial Agent Supervision,用空间而非列表/Tab管理大量 Agent 的注意力与状态,是,中
+WRITER Enterprise Brain,core,★★★★☆,Enterprise memory,Organization Learning Loop,组织日常工作持续沉淀为团队级 Memory 并反哺 Agent,部分,中
+Mastra Factory,rejected,★★☆☆☆,Coding automation,Issue → Agent → PR,高工程价值，但 Linear/GitHub + Agent + worktree 可拼出核心体验,否,强
+Feathery Robin,rejected,★★★☆☆,Workflow builder,AI Build → Deterministic Workflow → Human Review,机制与 Airtop/Nex 已有模式高度重合,否,中
+Typewise Nova,core,★★★★★,Agent operations,Agent Operations Agent,由一个 AI Operator 持续监控、评估、改进其他业务 Agent,是,强
+Type.com,core,★★★★☆,Team AI workspace,AI Work as Shared Artifact,AI Session/Context/Tools/History 变成团队可继承的工作资产,是,中
+Thousand,core,★★★★☆,Knowledge/permissions,Agent as First-class Identity,Agent拥有独立身份、scope、有效期、权限与审计,是,强
+Speechmark,rejected,★★☆☆☆,Local meeting notes,Local ASR + Notes + MCP,与你本地工具相关，但主要是成熟能力组合，不是新机制,否,强
+OpenMarket,core,★★★★★,Shopping/decision,Adversarial Agents + Independent Referee,不同利益立场 Agent 相互挑战，由独立裁判验证证据,是,强
+HyperVerge,core,★★★★☆,Lending/due diligence,Evidence Gap → Active Investigation,AI发现证据缺口后主动发起调查、提问并获取新证据,是,强
+OpenAI Data Agent,core,★★★★☆,Enterprise analytics,Business Semantic Layer,AI消费的不只是数据，还包括组织对指标、关系与规则的统一语义,是,强
+Cadenya,watchlist,★★★☆☆,Agent runtime,Agent runtime infrastructure,Runtime、approval、sub-agent、context、成本与反馈完整，但偏基础设施,基础设施,中
+Swiftime,rejected,★★☆☆☆,Time tracking,Natural language + API,Agent可给自己记工时，但核心体验容易拼装,否,中
+ChatGPT for Financial Services,rejected,★★★☆☆,Vertical AI,Vertical ChatGPT + deep integrations,金融垂直化和数据集成强，但尚未看到独立的新产品机制,待验证,中
+Accordio,core,★★★★★,Freelancer back office,Agent-facing System of Record,SaaS 退为可信业务状态、规则和交易层，Agent 成为主要交互入口,是,强
+Switch,core,★★★★☆,Team agent collaboration,Context Belongs to Work,Context 归属于 Room/项目/任务，不绑定特定 Agent,是,强
+Diiverge,core,★★★★☆,Generative media,Generation as State Transition,生成不再是一次性 Artifact，而是推动持久世界状态演化,是,中
+Harden,rejected,★★★☆☆,Agent security,Tool-call policy enforcement,本地拦截 Agent tool calls 很实用，但更偏 Agent Security Infrastructure,基础设施,强
+ThreadRecall / Chat Recall,rejected,★★★☆☆,AI memory,Cross-session memory,实用但与已有 Shared Artifact / Persistent Context 模式高度重合,否,中
