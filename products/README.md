@@ -1,22 +1,24 @@
 # 产品深度卡片
 
-这里不是产品名单，而是每个产品的持续研究档案。
+这里保存每个产品的持续研究档案，不是产品名单。
 
-每个文件至少回答：
+每个文件至少回答：真实问题、旧/新工作流、核心机制、为什么不是普通“加 AI”、Composable Test、Human/AI/Software 分工、可迁移原则、对本地 Agent/B/G 的启发、不确定性与跟踪判断。
 
-1. 它解决什么真实问题；
-2. 旧工作流与新工作流；
-3. 最关键的产品机制；
-4. 为什么不是普通“加 AI”；
-5. Composable Test；
-6. Human / AI / Deterministic Software 分工；
-7. 可迁移产品原理；
-8. 对本地 Agent / AI 原生研发 / B/G 的启发；
-9. 不确定性与反证；
-10. 是否值得继续跟踪。
+## 基准产品
+- [Granola](./granola.md)
+- [Acti](./acti.md)
+- [ChatGPT Work](./chatgpt-work.md)
+- [Claude Cowork](./claude-cowork.md)
+- [Grok Bot](./grok-bot.md)
+- [TaskShell](./taskshell.md)
+- [Atlas](./atlas.md)
+- [LapuAI](./lapuai.md)
+- [Contrive](./contrive.md)
+- [Tadata](./tadata.md)
+- [Claudeforce](./claudeforce.md)
+- [Gemini Spark × Google Photos](./gemini-spark-google-photos.md)
 
-## 已回填
-
+## 2026-09-07 起日报回填
 - [Airtop Agent Builder](./airtop-agent-builder.md)
 - [Fambot](./fambot.md)
 - [Fireflies Voice Agents](./fireflies-voice-agents.md)
@@ -40,4 +42,4 @@
 - [Switch](./switch.md)
 - [Diiverge](./diiverge.md)
 
-后续会继续回填 Granola、Acti、Atlas、LapuAI、Contrive 等更早分析过的产品。
+观察名单和主动淘汰产品仍保留在 `data/apps.csv`，后续若它们出现真正新机制再升级为独立深度卡片。
