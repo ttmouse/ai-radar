@@ -2,7 +2,7 @@
 
 这里保存每个产品的持续研究档案，不是产品名单。
 
-每个文件至少回答：真实问题、旧/新工作流、核心机制、为什么不是普通“加 AI”、Composable Test、Human/AI/Software 分工、可迁移原则、对本地 Agent/B/G 的启发、不确定性与跟踪判断。
+每个文件首先要把产品本身讲清楚：官网、官方发布/Docs/Demo 等入口、目标用户、实际使用流程和关键证据；之后再回答真实问题、旧/新工作流、核心机制、为什么不是普通“加 AI”、Composable Test、Human/AI/Software 分工、事实/推断/未知、可迁移原则、对本地 Agent/B/G 的启发、可复刻路径、不值得抄的部分、不确定性与跟踪判断。
 
 ## 基准产品
 - [Granola](./granola.md)
@@ -41,5 +41,6 @@
 - [Accordio](./accordio.md)
 - [Switch](./switch.md)
 - [Diiverge](./diiverge.md)
+- [Frigade Assist API](./frigade-assist-api.md)
 
 观察名单和主动淘汰产品仍保留在 `data/apps.csv`，后续若它们出现真正新机制再升级为独立深度卡片。
