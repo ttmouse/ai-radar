@@ -30,4 +30,4 @@
 | 26 | Agent-facing System of Record | Accordio | SaaS成为 Agent 的可信状态和确定性动作层 |
 | 27 | Context Belongs to Work | Switch | Context 属于任务/项目/Room，而非某个 Agent |
 | 28 | Generation as State Transition | Diiverge | AI生成推动持久状态演化，而非一次性输出 |
-| 29 | Product → Learned Operational Model → Guidance / Action | Frigade Assist API | AI直接使用软件学习真实流程，把产品行为变成持续更新的程序性 Context，再用于解释、引导和执行 |
+| 29 | Runtime + Source + Telemetry → Operational Model → Agent Execution | Frigade Assist API | 代码/API/Schema提供结构，运行时行为与权限提供现实状态，Telemetry提供真实使用证据；融合为持续维护的操作模型供Agent执行 |
