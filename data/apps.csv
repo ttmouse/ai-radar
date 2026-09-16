@@ -45,7 +45,8 @@ Switch,core,★★★★☆,Team agent collaboration,Context Belongs to Work,Con
 Diiverge,core,★★★★☆,Generative media,Generation as State Transition,生成不再是一次性 Artifact，而是推动持久世界状态演化,是,中
 Harden,rejected,★★★☆☆,Agent security,Tool-call policy enforcement,本地拦截 Agent tool calls 很实用，但更偏 Agent Security Infrastructure,基础设施,强
 ThreadRecall / Chat Recall,rejected,★★★☆☆,AI memory,Cross-session memory,实用但与已有 Shared Artifact / Persistent Context 模式高度重合,否,中
-Frigade Assist API,core,★★★★★,Product adoption,Product → Learned Operational Model → Guidance / Action,浏览器Agent直接使用软件学习真实workflow并持续更新产品操作模型，再供用户Agent解释引导或执行,是,强
+Frigade Assist API,core,★★★★☆,Product adoption,Runtime + Source + Telemetry → Operational Model → Agent Execution,代码与运行时证据融合为持续维护的产品操作模型；Browser learning只是采集手段,是,强
 DealHub MCP for Admin,watchlist,★★★☆☆,Revenue operations,AI-administered business system,自然语言修改定价规则与审批流程，但与Airtop/Accordio/治理模式高度重合,否,中
 Workable Agent,watchlist,★★★☆☆,Recruiting,Structured intake → agent execution,先明确招聘评价标准再自动寻源筛选，设计正确但较容易用现有ATS+Agent拼装,否,中
 Lightfield,watchlist,★★★★☆,CRM,Continuous customer world model,持续吸收客户互动形成CRM上下文并供Agent工作，但与现有组织Context/SoR模式重合较多,部分,强
+G5 Labs,core,★★★★★,AI-native software development,Intent as Source of Truth / Semantic SDLC,业务意图成为代码之上的持久控制对象；Agent负责实现，人主要在语义层做diff/merge/governance,是,强
