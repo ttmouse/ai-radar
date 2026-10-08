@@ -4,7 +4,7 @@
 
 > 本仓库从“产品名单”升级为“研究库”：`README.md` 负责索引，`daily/` 保存每日完整判断，`products/` 保存每个产品的持续研究档案，`patterns/` 维护可迁移的 AI 原生产品模式。
 
-截至 2026-09-14：
+以下为 **2026-09-14 的历史快照**，并非当前实时统计；最新数量以仓库文件与 Pages 读取结果为准：
 - 核心入选：**34**
 - 观察名单：**6**
 - 主动淘汰/仅供参考：**10**
@@ -23,6 +23,9 @@
 
 - [产品深度卡片](./products/README.md)
 - [AI 原生产品模式库](./patterns/patterns.md)
+- [当前研究方法](./methodology/methodology-v2.md)
+- [方法论演进记录](./methodology/changelog.md)
+- [Pages 前端源码](./docs/index.html)
 - [结构化总表 CSV](./data/apps.csv)
 - [每日发现](./daily/2026-09/)
 - [深度报告](./reports/)

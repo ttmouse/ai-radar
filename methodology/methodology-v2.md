@@ -312,3 +312,17 @@ Methodology Reflection
 > **不要问“这个 AI 产品有什么新功能”，先问“AI 让哪个原本不存在的一等对象、责任关系或默认工作方式变得成立？”**
 
 如果答案只是“Agent 自动做了更多步骤”，默认不是强产品机制创新。
+
+---
+
+## 13. v2.2 执行完整性：Delivery Verification（2026-10-08）
+
+对 GitHub 仓库、Pages 或自动化逻辑的任何修改，执行 **read → change → commit → read-back**：
+
+1. 修改前读取 main 的实际文件，不根据历史日报推断当前代码状态。
+2. 提交后回读 main 目标文件/commit，确认修改确实存在。
+3. 如果无法访问已部署 Pages，明确区分“仓库源码已提交”和“线上页面已验证”，禁止混用。
+4. 日报里只报告已经证实的动作；失败或未完成的工作明确记录，不得以完成式书写。
+5. 评分时区分 Mechanism Novelty 与 Distribution/Default Adoption；已有机制获得大规模默认使用，不自动产生新 Pattern。
+
+该条是低风险交付质量规则，不改变 L1 创新定义。

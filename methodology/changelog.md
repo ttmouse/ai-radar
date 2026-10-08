@@ -1,5 +1,23 @@
 # Methodology Changelog
 
+## v2.2 — 2026-10-08
+
+### Changed
+- 新增 **Delivery Verification**：所有 GitHub/Pages 变更必须先读目标文件、提交后回读 main 分支确认；不得凭日报草稿或写入意图宣称“已上线”。
+- 区分 **source committed** 与 **Pages deployed**；未验证线上站点时只报告源码已提交、部署待验证。
+- 强调 **Mechanism Novelty ≠ Distribution/Default Adoption**：已有机制进入大众默认交互可以提高研究价值，但不能据此声称首创，也不自动新增 Pattern 编号。
+
+### Why
+2026-10-07 日报声称 Methodology 一级入口已完成，但 2026-10-08 回读 main 的 docs/index.html 仍只有 Feed/Explore/Patterns/Archive，说明产物叙述与实际代码脱节。另，ChatGPT Intelligent UI 的 10/07 大规模发布有价值，但 Anthropic 03/16 已有官方同类交互能力文档。
+
+### Expected impact
+- 减少日报与真实仓库状态不一致。
+- 避免将代码提交误称为 Pages 已部署。
+- 防止把大厂分发规模误判为新机制。
+
+---
+
+
 ## v2.1 — 2026-10-06
 
 ### Changed

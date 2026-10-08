@@ -50,3 +50,4 @@ DealHub MCP for Admin,watchlist,★★★☆☆,Revenue operations,AI-administer
 Workable Agent,watchlist,★★★☆☆,Recruiting,Structured intake → agent execution,先明确招聘评价标准再自动寻源筛选，设计正确但较容易用现有ATS+Agent拼装,否,中
 Lightfield,watchlist,★★★★☆,CRM,Continuous customer world model,持续吸收客户互动形成CRM上下文并供Agent工作，但与现有组织Context/SoR模式重合较多,部分,强
 G5 Labs,core,★★★★★,AI-native software development,Intent as Source of Truth / Semantic SDLC,业务意图成为代码之上的持久控制对象；Agent负责实现，人主要在语义层做diff/merge/governance,是,强
+OpenAI Intelligent UI,core,★★★★★,Generative interface,Headless System + Generative Interface,模型按意图实时组合原生可交互响应组件；强扩展既有模式不新增编号,否,强
