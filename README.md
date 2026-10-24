@@ -4,12 +4,12 @@
 
 > 本仓库从“产品名单”升级为“研究库”：`README.md` 负责索引，`daily/` 保存每日完整判断，`products/` 保存每个产品的持续研究档案，`patterns/` 维护可迁移的 AI 原生产品模式。
 
-截至 2026-09-14：
-- 核心入选：**34**
-- 观察名单：**6**
-- 主动淘汰/仅供参考：**10**
-- 共记录：**50**
-- 可迁移产品模式：**29**
+截至 2026-10-24（仓库当前索引，历史待同步内容不计入）：
+- 长期产品档案：**43**
+- 正式产品机制模式：**30**
+- `data/apps.csv` 机器索引：**52 条**（Core 36 / Observe 6 / Reject 10；部分历史日报尚待回填）
+- 最近日报：[2026-10-24](./daily/2026-10/2026-10-24.md)
+
 
 ## 筛选原则
 
@@ -24,7 +24,10 @@
 - [产品深度卡片](./products/README.md)
 - [AI 原生产品模式库](./patterns/patterns.md)
 - [结构化总表 CSV](./data/apps.csv)
-- [每日发现](./daily/2026-09/)
+- [每日发现（2026-10）](./daily/2026-10/)
+- [研究方法论（当前 v2.1）](./methodology/methodology-v2.md)
+- [Methodology Changelog](./methodology/changelog.md)
+- [GitHub Pages 阅读入口](https://ttmouse.github.io/ai-radar/)
 - [深度报告](./reports/)
 
 ## 仓库结构
@@ -36,7 +39,9 @@
 ├── daily/YYYY-MM/YYYY-MM-DD.md # 每日完整分析
 ├── data/apps.csv                # 结构化全量索引
 ├── patterns/patterns.md         # 产品机制模式库
-└── reports/                     # Full Research 深度报告
+├── methodology/                # 当前研究规则与变更记录
+└── docs/index.html             # GitHub Pages 动态读取 Markdown
+├── reports/                     # Full Research 深度报告
 ```
 
 ## 每日更新规则
