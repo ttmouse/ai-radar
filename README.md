@@ -40,8 +40,8 @@
 ├── data/apps.csv                # 结构化全量索引
 ├── patterns/patterns.md         # 产品机制模式库
 ├── methodology/                # 当前研究规则与变更记录
-└── docs/index.html             # GitHub Pages 动态读取 Markdown
-├── reports/                     # Full Research 深度报告
+├── docs/index.html             # GitHub Pages 动态读取 Markdown
+└── reports/                     # Full Research 深度报告
 ```
 
 ## 每日更新规则
