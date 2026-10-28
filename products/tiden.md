@@ -4,7 +4,7 @@
 **Docs：** https://docs.tiden.ai/  
 **Changelog：** https://tiden.ai/changelog  
 **首次研究：** 2026-10-19（当时评为 Core；该日 GitHub 日报/产品档案同步失败）  
-**再次研究：** 2026-10-27（复核 10/20–10/23 Changelog，补建长期档案）  
+**再次研究：** 2026-10-27（补建长期档案）；2026-10-28（纠偏 10/21 自动语义对账机制）  
 **状态：** 历史 Core，维持；**不是 10/27 新增 Core**。  
 **Tracking：** 5/5；**Mechanism Novelty：** 3/4；**Evidence：** B（官方技术文档/Changelog 明确，独立端到端误放行测试不足）。  
 **模式归属：** #30 Intent as Source of Truth，辅以 #15 Proposed Action、#21 AI Work as Shared Artifact、#27 Context Belongs to Work。**不新增模式编号。**
@@ -53,9 +53,9 @@ Tiden 记录 Run、Case、关联 Spec、分支与证据新鲜度
      ↓
 Gate 计算 Pass / Blocked / Not Verified / Risk Accepted
      ↓
-Human 审查语义 Diff、风险接受、Review Card
+Human 审查语义 Diff、风险接受、Review Card；代码 PR 按仓库规则合并
      ↓
-合并 / 暂停 / 关闭而保留证据
+Tiden Intent Branch 在符合条件时可自动对账合并；也可 Hold / 关闭并保留证据
 ```
 
 **官方公开的长期对象**：Organization、Workspace、Product、Branch、Spec、Test Case、Test Run、Agent Session、Issue、Release、Quality Gate、Risk Acceptance。Specs/Tests/Components 与代码、PR、运行结果存在关系。Tiden CLI、MCP Server、Reporters、REST API 与 GitHub/GitLab 连接为公开文档所述能力。
@@ -64,7 +64,7 @@ Human 审查语义 Diff、风险接受、Review Card
 
 | 参与者 | 旧分工 | Tiden 提议的新分工 |
 |---|---|---|
-| Human | 写需求、逐行检查代码/测试、猜测是否完成 | 审核 Intent/Spec、接受风险、决定合并；对原始需求正确性负责 |
+| Human | 写需求、逐行检查代码/测试、猜测是否完成 | 审核 Intent/Spec 与风险，决定是否批准代码 PR；可 Hold/关闭 Tiden Intent，但其语义分支在满足条件后可能自动对账合并；对原始需求正确性负责 |
 | AI | 理解任务、写代码/测试、常常自行宣布完成 | 生成/修订实现与测试，提出证据和修复，但不拥有最终交付裁决 |
 | Deterministic Software | 运行 CI、保存日志 | 按 Spec/Branch/Run 关联证据，计算 Gate，保留可审计状态，阻止未验证交付 |
 | 外部测试/运行环境 | 测试实际发生处 | 仍负责产生真实可复核的执行证据 |
@@ -187,3 +187,24 @@ IntentContract
 - **Supports**：#21、#27、#30。
 - **Challenges**：“绿色测试可跨分支复用”和“被放弃的工作可以删除全部上下文”。
 - **Daily**：[2026-10-27](../daily/2026-10/2026-10-27.md)。
+
+
+## 2026-10-28 Maturation Finding：代码合并 ≠ Intent 语义对账
+
+**一手证据**：[Tiden Changelog 2026-10-21](https://tiden.ai/changelog)；10/23 Closed Branch 与 Hold 机制。**这不是 10/28 新发布功能，而是对已有产品判断的实质性纠偏。**
+
+**公开机制**：当一个 Intent 关联的全部代码 Pull Requests 已合并且静默 24 小时，Tiden 会描述已合并代码、判断每项 Promise，自动将该 Intent Branch 合并到语义 main；部分工作经过 7 天后可合并已交付部分，未完成 Promise 移交新的 Intent。可通过 Hold 暂停，或产品设置关闭自动合并；10/23 新增 Closed Branch 保留未合并历史。
+
+**必须区分的两种合并**：
+- **代码仓库 PR 合并**：由 GitHub/GitLab 等仓库自己的审核、CI 和权限控制；官方所述自动 Intent 合并以代码 PR **已经合并**为前提，不代表绕过代码审批自动部署。
+- **Tiden Intent/Spec 语义分支合并**：对已落地的代码与原始承诺进行对账，可能由系统按时间与条件自动执行，并非每次都必须由人点击 Merge。
+
+**修正先前表述**：本档案原先“Human 决定合并”容易把两个合并混成一个动作。Human 应控制业务目标、风险接受、代码交付规则与例外；软件可在证据满足条件时自动维护语义记录，保留未完成承诺。**自动记录/对账不是自动授权高风险业务动作。**
+
+**结构性增量**：Intent → 已合并 PR 的真实证据 → 自动对账 / Hold → 已交付部分进入语义主线 + 未履行承诺进入后续 Intent。关键对象不再只有 Task 的“完成/未完成”，而是 **Promise 的交付、放弃、延期与继承**。
+
+**反证与风险**：24h 静默可能早于真实验收；自动判断某个 Promise 已满足可能误读代码；7 天超时可能把尚未确认的需求状态固化；自动化对账可能减少人工注意，却也可能隐藏错误。需要实测自动合并的误归属、错误承诺关闭率与人工复核成本。
+
+**对本地 Agent**：用 SQLite 保存 promise_id、linked_pr、evidence_sha、settled_state、hold_until、successor_intent、reason、actor；仅对“证据和承诺记录”的对账做自动化，不让自动对账改变实际业务权限。**对应急管理**：整改工单可以自动汇总材料与未完成事项，但隐患正式闭环、风险等级变更、督办发文不能照搬时间到期自动确认。
+
+**Pattern**：强化 #21 AI Work as Shared Artifact、#27 Context Belongs to Work、#30 Intent as Source of Truth；不新增 #31。**Tracking 5/5，历史 Core 维持。** [10/28 日报](../daily/2026-10/2026-10-28.md)。
