@@ -44,3 +44,5 @@
 - [Frigade Assist API](./frigade-assist-api.md)
 
 观察名单和主动淘汰产品仍保留在 `data/apps.csv`，后续若它们出现真正新机制再升级为独立深度卡片。
+## 2026-10-29
+- [Entire Trails](./entire.md) — 跨仓库 Trail、持续 Eval Findings 与 Agent Session 证据（条件 Core；不新增 Pattern）

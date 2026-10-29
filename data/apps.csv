@@ -52,3 +52,4 @@ Lightfield,watchlist,★★★★☆,CRM,Continuous customer world model,持续�
 G5 Labs,core,★★★★★,AI-native software development,Intent as Source of Truth / Semantic SDLC,业务意图成为代码之上的持久控制对象；Agent负责实现，人主要在语义层做diff/merge/governance,是,强
 UseIt Studio,core,★★★★☆,Physical design production,Artifact → Semantic Object → Action / Deterministic-Probabilistic Split,AI将视觉意图转成可编辑且带尺寸刀线出血白墨与制造约束的生产文件并支持局部修订,否,强
 Tiden,core,★★★★☆,AI-native SDLC,Intent as Source of Truth / Proposed Action,独立持久Spec与实际测试运行证据决定交付Gate并保留关闭分支的历史,否,强
+Entire,core,★★★★☆,AI-native software development,Judgment Queue / Shared Artifact / Context Belongs to Work,Trail 关联意图跨仓库变更Agent会话Eval证据与人工审批并将PR审查重心转向持续风险判断,否,强
