@@ -4,11 +4,11 @@
 
 > 本仓库从“产品名单”升级为“研究库”：`README.md` 负责索引，`daily/` 保存每日完整判断，`products/` 保存每个产品的持续研究档案，`patterns/` 维护可迁移的 AI 原生产品模式。
 
-截至 2026-10-31（仓库当前索引，历史待同步内容不计入）：
-- 长期产品档案：**45**
+截至 2026-11-01（仓库当前索引，历史待同步内容不计入）：
+- 长期产品档案：**46**
 - 正式产品机制模式：**30**
-- `data/apps.csv` 机器索引：**54 条**（Core 38 / Watchlist 6 / Reject 10；部分历史日报尚待回填）
-- 最近日报：[2026-10-31](./daily/2026-10/2026-10-31.md)
+- `data/apps.csv` 机器索引：**55 条**（Core 39 / Watchlist 6 / Reject 10；部分历史日报尚待回填）
+- 最近日报：[2026-11-01](./daily/2026-11/2026-11-01.md)
 
 
 ## 筛选原则
@@ -24,6 +24,7 @@
 - [产品深度卡片](./products/README.md)
 - [AI 原生产品模式库](./patterns/patterns.md)
 - [结构化总表 CSV](./data/apps.csv)
+- [每日发现（2026-11）](./daily/2026-11/)
 - [每日发现（2026-10）](./daily/2026-10/)
 - [研究方法论（当前 v2.1）](./methodology/methodology-v2.md)
 - [Methodology Changelog](./methodology/changelog.md)
